@@ -1,10 +1,10 @@
-import ecommerce from "./images/ecommerce.png";
-import crmApplication from "./images/crmApplication.png";
+import ecommerce from "./images/crmApplicationPhoto.png";
+import crmApplication from "./images/ecommercePhoto.png";
 import { useState, useEffect } from "react";
 
 const projects = [
   {
-    title: "CRM Dashboard",
+    title: "SmartLead CRM",
     desc: "A full-stack Customer Relationship Management (CRM) application for managing leads, sales agents, comments, and lead status. It features filtering, search, lead assignment, analytics, and a responsive user interface integrated with a RESTful backend API.",
     tech: [
       "React",
@@ -16,16 +16,16 @@ const projects = [
       "Mongoose",
       "ChartJs",
     ],
-    codeUrl: "https://github.com/Rajeev-2100/CRM_Frontend.git",
-    demoUrl: "https://crm-frontend-jade-alpha.vercel.app",
+    codeUrl: "https://github.com/Rajeev-2100/SmartLeadCRM_Frontend.git",
+    demoUrl: "https://smartlead-crm-frontend-r78f.vercel.app/",
     src_Image: crmApplication,
   },
   {
-    title: "E-Commerce Backend API",
+    title: "Modern Mart",
     desc: "A scalable REST API for an e-commerce platform supporting products, categories, inventory, and filtering. Designed with clean architecture and MongoDB to provide a solid backend foundation for online shopping applications.",
     tech: ["Node.js", "Express.js", "MongoDB", "Mongoose", "REST API"],
-    codeUrl: "https://github.com/Rajeev-2100/MajorProject_Frontend1.git",
-    demoUrl: "https://major-project-frontend1.vercel.app/",
+    codeUrl: "https://github.com/Rajeev-2100/ModernMart_Frontend.git",
+    demoUrl: "https://modernmart-ecommerce-frontend.vercel.app/",
     src_Image: ecommerce,
   },
 ];
