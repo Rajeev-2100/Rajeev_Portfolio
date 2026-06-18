@@ -1,5 +1,6 @@
 import ecommerce from "./images/crmApplicationPhoto.png";
 import crmApplication from "./images/ecommercePhoto.png";
+import meetupData from './images/meetupData.png'
 import { useState, useEffect } from "react";
 
 const projects = [
@@ -23,10 +24,18 @@ const projects = [
   {
     title: "Modern Mart",
     desc: "A scalable REST API for an e-commerce platform supporting products, categories, inventory, and filtering. Designed with clean architecture and MongoDB to provide a solid backend foundation for online shopping applications.",
-    tech: ["Node.js", "Express.js", "MongoDB", "Mongoose", "REST API"],
+    tech: [ "React", "Bootstrap", "React Router", "Node.js", "Express.js", "MongoDB", "Mongoose"],
     codeUrl: "https://github.com/Rajeev-2100/ModernMart_Frontend.git",
     demoUrl: "https://modernmart-ecommerce-frontend.vercel.app/",
     src_Image: ecommerce,
+  },
+  {
+    title: "meetUp Data",
+    desc: "MeetUp Event App — A React-based event discovery platform that allows users to browse, search, and filter meetup events, with detailed event pages powered by a REST API.",
+    tech: [ "React", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Mongoose", "REST API"],
+    codeUrl: "https://github.com/Rajeev-2100/meetupFrontend.git",
+    demoUrl: "https://meetup-frontend-navy.vercel.app/",
+    src_Image: meetupData,
   },
 ];
 
