@@ -37,22 +37,22 @@ const projects = [
     demoUrl: "https://modernmart-ecommerce-frontend.vercel.app/",
     src_Image: ecommerce,
   },
-  {
-    title: "MeetUp App",
-    desc: "MeetUp Event App — A React-based event discovery platform that allows users to browse, search, and filter meetup events, with detailed event pages powered by a REST API.",
-    tech: [
-      "React",
-      "Bootstrap",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Mongoose",
-      "REST API",
-    ],
-    codeUrl: "https://github.com/Rajeev-2100/meetupFrontend.git",
-    demoUrl: "https://meetup-frontend-navy.vercel.app/",
-    src_Image: meetupData,
-  },
+  // {
+  //   title: "MeetUp App",
+  //   desc: "MeetUp Event App — A React-based event discovery platform that allows users to browse, search, and filter meetup events, with detailed event pages powered by a REST API.",
+  //   tech: [
+  //     "React",
+  //     "Bootstrap",
+  //     "Node.js",
+  //     "Express.js",
+  //     "MongoDB",
+  //     "Mongoose",
+  //     "REST API",
+  //   ],
+  //   codeUrl: "https://github.com/Rajeev-2100/meetupFrontend.git",
+  //   demoUrl: "https://meetup-frontend-navy.vercel.app/",
+  //   src_Image: meetupData,
+  // },
 ];
 
 const skills = [
@@ -340,7 +340,11 @@ export default function App() {
             >
               View Projects
             </button>
-            <a href="https://docs.google.com/document/d/1yzBU-CSFRW37V8ICCja0CTv2xhXOQ4KkJ2GKXZelDzQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://docs.google.com/document/d/1yzBU-CSFRW37V8ICCja0CTv2xhXOQ4KkJ2GKXZelDzQ/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button
                 style={{
                   background: "transparent",
@@ -657,7 +661,7 @@ export default function App() {
                 icon: "✉",
                 label: "Email",
                 value: "rajeevrawat210@gmail.com",
-                href: "mailto:rajeevrawat210@gmail.com",
+                href: "https://mail.google.com/mail/u/0/?fs=1&to=rajeevrawat210@gmail.com&tf=cm",
                 color: "#EA4335",
               },
               {
@@ -685,9 +689,10 @@ export default function App() {
               <a
                 key={c.label}
                 href={c.href}
-                target="_blank"
-                rel="noreferrer"
-                style={{ textDecoration: "none", display: "block" }}
+                {...(!c.href.startsWith("mailto:")
+                  ? { target: "_blank", rel: "noreferrer" }
+                  : {})}
+                  className="text-decoration-none"
               >
                 <div
                   style={{
@@ -732,15 +737,13 @@ export default function App() {
       </section>
 
       <footer
+        className="d-flex justify-content-center align-items-center"
         style={{
           borderTop: "1px solid #1a1a1a",
-          padding: "2rem 1.5rem",
+          paddingTop: '1rem', 
           textAlign: "center",
         }}
       >
-        <p style={{ color: "#fff", fontSize: 14, marginBottom: "0.3rem" }}>
-          © 2026 Rajeev Rawat • All rights reserved
-        </p>
         <p style={{ color: "#fff", fontSize: 13 }}>
           © 2026 Rajeev Rawat • Built with React, Bootstrap & ❤️
         </p>
