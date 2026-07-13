@@ -253,7 +253,7 @@ export default function App() {
       <section
         id="home"
         style={{
-          minHeight: "100vh",
+          minHeight: "300px",
           display: "flex",
           alignItems: "center",
           padding: "8rem 1.5rem 4rem",
