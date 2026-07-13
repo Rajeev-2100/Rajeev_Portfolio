@@ -341,7 +341,7 @@ export default function App() {
               View Projects
             </button>
             <a
-              href="https://docs.google.com/document/d/1yzBU-CSFRW37V8ICCja0CTv2xhXOQ4KkJ2GKXZelDzQ/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1tPdtgfIGuwj5OFNbqcHJAEP94RVr1a5e/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
