@@ -250,15 +250,7 @@ export default function App() {
         )}
       </nav>
 
-      <section
-        id="home"
-        style={{
-          minHeight: "300px",
-          display: "flex",
-          alignItems: "center",
-          padding: "8rem 1.5rem 4rem",
-        }}
-      >
+      <section id="home" style={{ minHeight: "300px", display: "flex", alignItems: "center", padding: "8rem 1.5rem 5rem" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", width: "100%" }}>
           <div
             style={{
@@ -364,7 +356,7 @@ export default function App() {
         </div>
       </section>
 
-      <section id="projects" style={{ padding: "5rem 1.5rem" }}>
+      <section id="projects" style={{ padding: "4rem 1.5rem" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <p
             style={{
@@ -524,7 +516,7 @@ export default function App() {
         </div>
       </section>
 
-      <section id="skills" style={{ padding: "5rem 1.5rem" }}>
+      <section id="skills" style={{ padding: "4rem 1.5rem" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <p
             style={{
@@ -613,7 +605,7 @@ export default function App() {
         </div>
       </section>
 
-      <section id="contact" style={{ padding: "5rem 1.5rem" }}>
+      <section id="contact" style={{ padding: "4rem 1.5rem" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <p
             style={{
