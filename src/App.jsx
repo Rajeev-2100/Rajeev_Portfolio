@@ -565,7 +565,7 @@ export default function App() {
 
         .navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 1rem 0; transition: background var(--transition), border var(--transition); }
         .navbar.scrolled { background: rgba(5,5,5,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
-        .nav-container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; }
+        .nav-container { max-width: 1100px; width: 100%; margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; }
         .nav-logo { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 18px; }
         .logo-bracket { color: var(--accent); font-family: monospace; font-weight: 400; }
         .desktop-nav { display: flex; align-items: center; gap: 2rem; }
