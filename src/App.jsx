@@ -43,8 +43,8 @@ const projects = [
       "Landing Page",
       "Chart.js",
     ],
-    codeUrl: "https://github.com/Rajeev-2100/SmartLeadCRM_Frontend.git",
-    demoUrl: "https://smartlead-crm-frontend-r78f.vercel.app/",
+    codeUrl: "https://github.com/Rajeev-2100/SmartLeadCRM_Frontend",
+    demoUrl: "https://smart-lead-crm-frontend.vercel.app/",
     src_Image: crmApplication,
   },
   {
